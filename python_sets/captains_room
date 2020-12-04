@@ -1,4 +1,4 @@
-https://www.hackerrank.com/challenges/py-the-captains-room/problem
+# https://www.hackerrank.com/challenges/py-the-captains-room/problem
 
 fam_members = int(input())
 room_nums = list(map(int, input().split(' ')))
