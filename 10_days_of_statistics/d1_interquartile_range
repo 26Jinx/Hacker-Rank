@@ -1,4 +1,4 @@
-https://www.hackerrank.com/challenges/s10-interquartile-range/problem
+# https://www.hackerrank.com/challenges/s10-interquartile-range/problem
 
 q = int(input())
 entries = list(map(int, input().split(' ')))
