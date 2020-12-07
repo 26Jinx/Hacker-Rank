@@ -1,0 +1,11 @@
+# https://www.hackerrank.com/challenges/s10-geometric-distribution-1/problem
+
+fraction = list(map(int, input().split(' ')))
+n = int(input())
+
+probability_of_defect = fraction[0]/fraction[1]
+
+# P(k) = (1-p)^(k-1)*p GEOMETRIC DISTRIBUTION
+probability_of_defect_at_trial_n = (1-probability_of_defect)**(n-1)*probability_of_defect
+
+print(round(probability_of_defect_at_trial_n, 3))
