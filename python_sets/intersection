@@ -1,4 +1,4 @@
-https://www.hackerrank.com/challenges/py-set-intersection-operation/problem
+# https://www.hackerrank.com/challenges/py-set-intersection-operation/problem
 
 q = int(input())
 eng = set(map(int, input().split(' ')))
