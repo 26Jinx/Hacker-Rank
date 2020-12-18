@@ -1,5 +1,7 @@
 # https://www.hackerrank.com/challenges/s10-the-central-limit-theorem-1/problemimport math
 
+import math
+
 max_w = int(input())
 n = int(input())
 mean = int(input())
