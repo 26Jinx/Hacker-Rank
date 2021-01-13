@@ -5,11 +5,8 @@ scores = []
 for _ in range(5):
     scores.append(list(map(int, input().split(' '))))
    
-math_scores = stats_scores = [], []
-
-for pair in scores:
-    math_scores.append(pair[0])
-    stats_scores.append(pair[1])
+math_scores = [score[0] for score in scores]
+stats_scores = [score[1] for score in scores]
 
 def get_regr_line(lst_X, lst_Y):
     n = len(lst_X)
